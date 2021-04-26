@@ -8,6 +8,7 @@
     "develop": "nodemon server.js",
     "unit-tests": "mocha test/unit.js",
     "integration-tests": "mocha --timeout 40000 --exit test/integration.js",
+    "prettier": "prettier -c **/*.{json,js}",
     "mocha": "npm run mocha"
   },
   "keywords": [],
